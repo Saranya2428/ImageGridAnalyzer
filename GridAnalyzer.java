@@ -94,10 +94,10 @@ public class GridAnalyzer {
 
         analyzer.printSize();
         System.out.println("Histogram: " + analyzer.histogram());
-        System.out.println("Regions of 'a': " + analyzer.countRegions('a'));
-        System.out.println("Regions of 'b': " + analyzer.countRegions('b'));
-        System.out.println("Regions of 'c': " + analyzer.countRegions('c'));
-        System.out.println("Regions of 'd': " + analyzer.countRegions('d'));
+        System.out.println("Regions of 'A': " + analyzer.countRegions('A'));
+        System.out.println("Regions of 'B': " + analyzer.countRegions('B'));
+        System.out.println("Regions of 'C': " + analyzer.countRegions('C'));
+        System.out.println("Regions of 'D': " + analyzer.countRegions('D'));
 
         System.out.println("\nFlood-fill at (0,0) with 'x':");
         analyzer.floodFill(0,0,'x');
